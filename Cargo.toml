@@ -3,6 +3,8 @@ name = "py-runner"
 version = "0.1.0"
 edition = "2024"
 readme = "README.md"
+description = "Simple tool that allows you to execute Python code from Rust."
+license = "MIT"
 
 [dependencies]
 pyo3 = { version = "0.25.0", features = ["auto-initialize"] }
